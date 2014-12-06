@@ -1,0 +1,64 @@
+/* 
+Module Rules
+    A Module is a more discrete component of the page. It is your navigation bars and your carousels and your dialogs and your widgets and so on. This is the meat of the page. Modules sit inside Layout components. Modules can sometimes sit within other Modules, too. Each Module should be designed to exist as a standalone component. In doing so, the page will be more flexible. If done right, Modules can easily be moved to different parts of the layout without breaking.
+    When defining the rule set for a module, avoid using IDs and element selectors, sticking only to class names. A module will likely contain a number of elements and there is likely to be a desire to use descendent or child selectors to target those elements. 
+*/
+
+abbr[title="Cascading Style Sheets"]{
+    border: none;
+}
+
+
+.summary {
+    text-align: center;
+    margin-top: 40vh;
+
+}
+
+//.preamble {
+//    text-align: center;
+//    margin-top: 10px;
+//    padding: 0 200px 0 -200px;
+//    
+//}
+
+//.preamble p {
+//    text-align: center;
+//    
+//   
+////    padding: 0 100px 0 -100px;
+//    
+//}
+.requirements {
+    margin-bottom: 10vh;
+}
+
+.benefits {
+    //display: table;
+   padding: 0 100px 0 -100px;
+}
+
+.benefits h3 {
+    text-align: center;
+}
+
+.supporting {
+    text-align: left;
+}
+
+
+.design-selection {
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.design-archives {
+    text-align: center;
+    padding: 10px;
+}
+
+.zen-resources {
+    text-align: right;
+    padding: 10px;
+}

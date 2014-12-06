@@ -1,0 +1,57 @@
+/* 
+Layout Rules
+    CSS, by its very nature, is used to lay elements out on the page. However, there is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer. I refer to the minor components as Modules and will dive into those in the next section. The major components are referred to as Layout styles.
+    Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.
+*/
+
+//.sidebar {
+//    background-color: pink;
+//    position: absolute;
+//    top: 0;
+//    right: 0;
+//    // left: 100px;
+//    // bottom: 0;
+//    width: 20%;
+//    @media screen and (max-width: $tablet) {
+//        position: static;
+//        width: 100%;
+//    }
+//}
+
+
+.design-selection {
+    background-color: #fff;
+    position: absolute;
+    //display: table;
+    top: 120px;
+    padding-left: 10px;
+    @media screen and (max-width: $tablet) {
+       position: static;
+        width: 100%;
+   }
+}
+
+.design-archives {
+background-color: #fff;
+ position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -75px;
+    //display: table;
+    @media screen and (max-width: $tablet) {
+       position: static;
+        width: 100%;
+   }
+}
+
+.zen-resources {
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    //display: table;
+    @media screen and (max-width: $tablet) {
+       position: static;
+        width: 100%;
+   }
+}
